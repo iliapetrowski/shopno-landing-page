@@ -68,9 +68,11 @@ header {
   border: 2px solid #777879;
   letter-spacing: 2.5px;
   word-spacing: 3px;
+  transition: background-color .2s linear, color .2s linear;
   &:hover{
     background-color: #3c3c3d;
     color: #fff;
+
   }
 
 }
