@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block-title {
+  text-align: center;
+  margin: 120px 154px;
+
+}
+
+
+.title {
+  color: #181919;
+  font-size: 39px;
+  font-weight: 800;
+  font-family: Montserrat;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  position: relative;
+  right: -8px;
+  word-spacing: 5px;
+}
+
+.subtitle {
+  color: #858686;
+  font-size: 18px;
+  font-family: Merriweather;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
