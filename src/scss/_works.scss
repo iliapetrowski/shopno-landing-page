@@ -1,0 +1,26 @@
+.works {
+  height: 1160px;
+
+
+}
+
+.works__img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 13px 14px;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+
+}
+
+.works__img-item {
+  height: auto;
+  width: 100%;
+
+}
+
+.works__inner {
+
+}
