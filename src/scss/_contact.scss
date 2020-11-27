@@ -2,11 +2,12 @@
   background: url("../img/background.jpg") center / cover;
   position: relative;
   height: 707px;
+  padding-top: 100px;
 }
 
 .contact__wrapper {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,0.5718662464985995) 3%, rgba(255,255,255,0.969625350140056) 67%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5718662464985995) 3%, rgba(255, 255, 255, 0.969625350140056) 67%);
   position: absolute;
   left: 0;
   top: 0;
@@ -18,7 +19,7 @@
 
 .contact__inner {
   display: grid;
-  grid-template-columns: 613px 500px;
+  grid-template-columns: 613px 501px;
   grid-template-rows: 1fr;
   gap: 0px 26px;
   grid-template-areas:
@@ -28,9 +29,94 @@
 }
 
 
-.contact__form{
-  background-color: rgba(2, 22, 35, 0.67);
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(2, 22, 35, 0.65);
+  padding: 38px 30px;
 
 }
 
-.contact__input{}
+.contact__input {
+  background: 0;
+  border: 0;
+  border-bottom: 1px solid #65757f;
+  padding: 18px 4px;
+  margin-bottom: 10px;
+
+  &::placeholder {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b7bcc0;
+  }
+}
+
+.contact__textarea {
+  height: 100px;
+  background: 0;
+  border: 0;
+  border-bottom: 1px solid #65757f;
+  padding: 18px 4px;
+  margin-bottom: 37px;
+
+  &::placeholder {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b7bcc0;
+  }
+}
+
+.contact__button {
+  max-width: 244px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background: #6eeee4;
+  color: #214744;
+  font-family: Montserrat;
+  font-weight: 500;
+  letter-spacing: 0.70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  transition: background-color .2s linear;
+  border-radius: 2px;
+
+  &:hover {
+    background-color: #73f9ee;
+  }
+}
+
+.contact__map {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(2, 22, 35, 0.65);
+  padding: 36px 30px 19px 24px;
+
+}
+
+.contact__map-text {
+  color: #c8cdd0;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+
+.contact__map-text-item {
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.contact__map-link {
+  iframe{
+    width: 100%;
+    height: 224px;
+    border: 0;
+  }
+
+
+}
