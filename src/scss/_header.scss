@@ -97,3 +97,10 @@ header {
   z-index: 1;
   top: -20px;
 }
+
+@media (max-width: 600px) {
+  .header__img{
+    display: none;
+  }
+
+}

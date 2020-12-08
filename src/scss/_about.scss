@@ -4,18 +4,22 @@
 }
 
 .about__inner {
+
 }
 
 .about__description {
-  display: grid;
-  grid-template-columns: 393px 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 152px;
-  grid-row-gap: 0px;
+  display: flex;
+  justify-content: space-between;
+
   padding-left: 53px;
 
 }
 .about__img {
+
+  max-width: 100%;
+  img{
+    max-width: 100%;
+  }
 }
 .about__text {
   max-width: 495px;
@@ -45,3 +49,13 @@
   font-size: 17px;
 }
 
+@media (max-width: 800px) {
+
+  .about__description{
+    flex-direction: column;
+    align-items: center;
+  }
+.about__img{
+  display: none;
+}
+}
