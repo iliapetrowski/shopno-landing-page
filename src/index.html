@@ -11,7 +11,7 @@
 <header>
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo"><a href="#"><img class="header__logo-img" src="./img/logo.png"/></a></div>
+            <div class="header__logo"><a href="#"><img class="header__logo-img" alt="logo" src="./img/logo.png"/></a></div>
 
             <div class="header__title">
                 <h1 class="header__title-text">Say Hello to <span class="header__title-bg">SHOPNO!</span><br>
@@ -20,8 +20,14 @@
             <div class="header__button">
                 <a class="header__button-link" href="#">contact us</a>
             </div>
+            <div class="header__img">
+                <img src="./img/glass.png" alt="glass img" class="glass header__img-item">
+                <img src="./img/coaster.png" alt="coaster img" class="header__img-item">
+            </div>
         </div>
+
     </div>
+
 </header>
 <section class="about">
     <div class="container">
@@ -39,12 +45,12 @@
                     <p class="about__lead">A visual approach is an approach to a runway at an airport
                         conducted under instrument flight rules. The pilot must at all times have either the airport or
                         the preceding aircraft in approach correct sight. conducted under instrument flight rules. The
-                        pilot must at all times.
+                        pilot must at all times. </p>
 
                     <div class="about__lead about__last"> Preceding aircraft in approach correct sight. conducted under
                         instrument flight rules.
                     </div>
-                    </p>
+
                     <h4 class="about__title about__title-sm">why we are the great?</h4>
                     <p class="about__lead">A visual approach is an approach to a runway at an airport
                         conducted under instrument flight rules.
@@ -222,7 +228,7 @@
     </div>
 </section>
 
-<footer>
+<footer id="footer">
     <div class="footer__inner">
         <div class="footer__text">follow us</div>
         <ul class="footer__icon">
@@ -234,6 +240,15 @@
         </ul>
     </div>
 </footer>
+<div class="wrapper hidden" >
+    <div class="modal">
+        <img class="modal__img" src='./img/works_1.png' alt="">
+        <i class="modal__icon-close fas fa-times"></i>
+
+
+    </div>
+</div>
+
 <script src="js/main.js"></script>
 </body>
 </html>

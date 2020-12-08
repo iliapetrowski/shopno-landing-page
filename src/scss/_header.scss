@@ -3,6 +3,7 @@
 header {
   background-color: #eff0f2;
   height: 806px;
+  position: relative;
 
 }
 
@@ -30,6 +31,8 @@ header {
 
 .header__inner {
   padding-top: 64px;
+  position: relative;
+  height: 100%;
 }
 
 .header__title {
@@ -75,4 +78,22 @@ header {
 
   }
 
+}
+
+.header__img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.header__img-item{
+  position: absolute;
+
+}
+
+.glass{
+  z-index: 1;
+  top: -20px;
 }
